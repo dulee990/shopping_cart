@@ -61,19 +61,18 @@ composer install
 npm install
 
 ### Environment setup
-cp .env.example .env
-php artisan key:generate
+- cp .env.example .env
+- php artisan key:generate
 
 ### Example mail config (dummy email is sufficient for testing):
-MAIL_MAILER=log
 MAIL_ADMIN_EMAIL=admin@example.com
 
 
 ### Run migrations and seed data
-php artisan migrate
-php artisan db:seed
+- php artisan migrate
+- php artisan db:seed
 
 
 ### Run the application
-php artisan serve
-npm run dev
+- php artisan serve
+- npm run dev
