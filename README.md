@@ -17,7 +17,7 @@ The goal of the project is to demonstrate:
 - **Vue 3**
 - **Tailwind CSS**
 - **Laravel Breeze (auth scaffolding)**
-- **MySQL / PostgreSQL**
+- **MySQL**
 - **Laravel Queue (database driver)**
 
 ---
